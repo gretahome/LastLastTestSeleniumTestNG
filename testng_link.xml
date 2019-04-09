@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testsuit" verbose="1" >
+<!--
+    <test name ="testorder2">
+        <classes>
+            <class name = "Test2.com.MainTest" >
+                <methods>
+                    <include name = "TestCat"/>
+                    <include name = "TestEat"/>
+                    <include name = "TestFood"/>
+                </methods>
+            </class>
+        </classes>
+
+           </test>
+-->
+
+    <parameter name="env"  value="${env}"/>
+    <parameter name="name"  value="${username}"/>
+    <parameter name="pwd"  value="${password}"/>
+
+    <test name="testorer">
+        <classes>
+            <class name="com.Test.ParameterTest"/>
+        </classes>
+
+
+    </test>
+
+
+</suite>
