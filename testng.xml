@@ -13,7 +13,9 @@
         </classes>
            </test>
 -->
-
+    <parameter name="env"  value="${env}"/>
+    <parameter name="name"  value="${username}"/>
+    <parameter name="pwd"  value="${password}"/>
     <test name="testorder">
         <classes>
             <class name="com.Test.SeleniumTestone"/>
