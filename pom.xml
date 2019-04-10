@@ -37,6 +37,18 @@
          
         <build>
             <plugins>
+                      <plugin>
+                    <!-- 编译插件-->
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.3</version>
+                    <inherited>true</inherited>
+                    <configuration>
+                        <source>1.8</source>
+                        <target>1.8</target>
+                        <encoding>UTF-8</encoding>
+                    </configuration>
+                </plugin>
                 <!-- 添加插件 关联testNg.xml -->
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
