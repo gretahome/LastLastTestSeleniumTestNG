@@ -56,7 +56,7 @@
                     <version>2.5</version>
                     <configuration>
                         <suiteXmlFiles>
-                            <suiteXmlFile>${RunTestXML}</suiteXmlFile>
+                            <suiteXmlFile>testng_link.xml</suiteXmlFile>
                         </suiteXmlFiles>
                         <!--<includes>
                             <include>app1.java</include>
