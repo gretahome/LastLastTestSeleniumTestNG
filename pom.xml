@@ -33,7 +33,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <TESTNGXML>${TESTNGXML}</TESTNGXML>
+        <RunTestXML>${RunTestXML}</RunTestXML>
     </properties>
 
         <build>
@@ -81,7 +81,7 @@
                             <environment>PARAM</environment>
                         </systemPropertyVariables>
                         <suiteXmlFiles>
-                            <suiteXmlFile>${TESTNGXML}</suiteXmlFile>
+                            <suiteXmlFile>${RunTestXML}</suiteXmlFile>
                         </suiteXmlFiles>
                         <!--<includes>
                             <include>app1.java</include>
