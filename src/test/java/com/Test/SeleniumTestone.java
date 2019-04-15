@@ -49,9 +49,10 @@ public class SeleniumTestone {
             e.sendKeys("maven testng");
             e.submit();
             try {
-                driver.wait(3000);
+                driver.wait(2000);
                 WebElement containerL = driver.findElement(By.id("content_left"));
                 containerL.isDisplayed();
+
                 Assert.assertNotNull( driver.findElement(By.partialLinkText("Maven")),"cannot loading any result");
 
             }catch(Exception el){

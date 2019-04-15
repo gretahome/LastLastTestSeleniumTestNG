@@ -9,7 +9,8 @@ public class ParameterTest {
     @Test
     public  void paramerTest(String env,String name,String pwd){
 
-        System.out.println("测试环境：" + env + "_登录名： " +name + "_密码： " + pwd);
+        System.out.println("ENV：" + env + "_username： " +name + "_password： " + pwd);
+
 
     }
 }

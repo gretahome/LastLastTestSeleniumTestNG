@@ -30,6 +30,7 @@
             </dependency>
 
         </dependencies>
+<<<<<<< HEAD
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -59,6 +60,16 @@
                 </plugin>-->
 
                 <plugin>
+=======
+         
+         <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+         
+        <build>
+            <plugins>
+                      <plugin>
+>>>>>>> e75cd1eb3da4873f8a1520d5fa7c96872a3747a2
                     <!-- 编译插件-->
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
@@ -70,7 +81,10 @@
                         <encoding>UTF-8</encoding>
                     </configuration>
                 </plugin>
+<<<<<<< HEAD
 
+=======
+>>>>>>> e75cd1eb3da4873f8a1520d5fa7c96872a3747a2
                 <!-- 添加插件 关联testNg.xml -->
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
