@@ -15,6 +15,7 @@
            </test>
 -->
     <parameter name="env"  value="${env}"/>
+    <parameter name="browser"  value="${browser}"/>
     <parameter name="name"  value="${username}"/>
     <parameter name="pwd"  value="${password}"/>
     <test name="testorder">

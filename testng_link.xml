@@ -18,11 +18,12 @@
     <parameter name="env"  value="${env}"/>
     <parameter name="name"  value="${username}"/>
     <parameter name="pwd"  value="${password}"/>
-
+    <parameter name="browser"  value="${browser}"/>
 
     <test name="testorer">
         <classes>
             <class name="com.Test.ParameterTest"/>
+            <class name="com.Test.com.Resource.BrowserLaunch"/>
         </classes>
 
 

@@ -23,6 +23,7 @@ public class SeleniumTestone {
         public void setUp () {
             System.setProperty("webdriver.chrome.driver","C:\\\\Libs\\\\chromedriver.exe");
             driver  = new ChromeDriver();
+            driver.manage().window().maximize();
 
         }
 
