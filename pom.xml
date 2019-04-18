@@ -34,29 +34,9 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <RunTestXML>${RunTestXML}</RunTestXML>
+        <RunTestXML.kind>VERSION</RunTestXML.kind>
     </properties>
 
-
-                <!--
-                <plugin>
-                    <groupId>org.codehaus.mojo</groupId>
-                    <artifactId>properties-maven-plugin</artifactId>
-                    <version>1.0-alpha-2</version>
-                    <executions>
-                        <execution>
-                            <phase>initialize</phase>
-                            <goals>
-                                <goal>read-project-properties</goal>
-                            </goals>
-                            <configuration>
-                                <files>
-                                    <file>${user.dir}/properties/2017.11.release.properties</file>
-                                </files>
-                            </configuration>
-                        </execution>
-                    </executions>
-                </plugin>-->
          
         <build>
             <plugins>
@@ -83,7 +63,7 @@
                             <environment>PARAM</environment>
                         </systemPropertyVariables>
                         <suiteXmlFiles>
-                            <suiteXmlFile>${RunTestXML}</suiteXmlFile>
+                            <suiteXmlFile>${RunTestXML.kind}</suiteXmlFile>
                         </suiteXmlFiles>
                         <!--<includes>
                             <include>app1.java</include>
